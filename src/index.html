@@ -92,7 +92,9 @@
 </body>
 <script>
 	window.onload = function () {
-        document.querySelector(".hot").innerHTML += ' &#128293'
+        document.querySelectorAll(".hot").forEach(x=>{
+			x.innerHTML += ' &#128293'
+		})
     }();
 </script>
 </html>
